@@ -13,3 +13,7 @@
 .main {
   padding: 30px 0;
 }
+
+.casting-item img{
+  size: auto 5px;
+}
