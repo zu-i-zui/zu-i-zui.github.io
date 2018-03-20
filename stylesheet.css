@@ -3,25 +3,31 @@
   font-family: "Hiragino Kaku Gothic ProN";
 }
 
-li {
-  list-style: none;
-}
-
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-  background-color: skyblue;
-}
-
 .main {
-  padding: 30px 0;
+  padding: 30px 100px;
 }
+
+.main-picture img{
+  width: 1200px;
+  float: center;
+}
+
+
+.title h1{
+  color: red;
+}
+
 
 .casting-item {
   float: left;
+  margin-right: 45px;
 }
 
 .casting-item img{
-  width: 150px;
+  width: 180px;
+}
+
+.date {
+  width: 1200px;
+  float: center;
 }
