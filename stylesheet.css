@@ -3,8 +3,18 @@
   font-family: "Hiragino Kaku Gothic ProN";
 }
 
+header {
+  background-color: black;
+  color: white;
+}
+header h1 {
+  font-size: 50px;
+}
+
 .main {
   padding: 30px 100px;
+  background-color: black;
+  color: white;
 }
 
 .main-picture img{
@@ -16,11 +26,19 @@
 .title h1{
   color: red;
 }
+span {
+  font-size: 60px;
+}
 
+.casting-wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
 
 .casting-item {
   float: left;
   margin-right: 45px;
+  padding: 10px 0 20px 0;
 }
 
 .casting-item img{
@@ -28,6 +46,10 @@
 }
 
 .date {
+  padding-top: 20px;
   width: 1200px;
-  float: center;
+}
+
+.date h1 {
+  letter-spacing: 3px;
 }
